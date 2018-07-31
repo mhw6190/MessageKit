@@ -233,7 +233,7 @@ open class MessageInputBar: UIView {
     }
     
     /// The fixed widthAnchor constant of the rightStackView
-    public private(set) var rightStackViewWidthConstant: CGFloat = 52 {
+    public private(set) var rightStackViewWidthConstant: CGFloat = 36 {
         didSet {
             rightStackViewLayoutSet?.width?.constant = rightStackViewWidthConstant
         }
